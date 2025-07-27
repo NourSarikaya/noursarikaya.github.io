@@ -10,7 +10,7 @@ const splashScreen = {
 };
 
 const illustration = {
-  animated: false
+  animated: true
 };
 
 const greeting = {
