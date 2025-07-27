@@ -1,14 +1,16 @@
 {
   "files": {
     "main.css": "/static/css/main.fb071bd1.css",
-    "main.js": "/static/js/main.f25a220e.js",
+    "main.js": "/static/js/main.50e1fbcb.js",
     "static/css/64.13040c87.chunk.css": "/static/css/64.13040c87.chunk.css",
     "static/js/64.56dc6704.chunk.js": "/static/js/64.56dc6704.chunk.js",
     "static/css/769.7237592a.chunk.css": "/static/css/769.7237592a.chunk.css",
     "static/js/769.bda0d7b7.chunk.js": "/static/js/769.bda0d7b7.chunk.js",
     "static/media/mypicture.png": "/static/media/mypicture.e66d1ca0841dc3660c72.png",
     "static/media/Montserrat-Regular.ttf": "/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
+    "static/media/catlaserLogo.png": "/static/media/catlaserLogo.41bc2ae16af944c954ae.png",
     "static/media/Agustina.woff": "/static/media/Agustina.eb0c59dda4cc308cba96.woff",
+    "static/media/blogApiLogo.png": "/static/media/blogApiLogo.d49accd58af1fb41991d.png",
     "static/media/harperLogo.png": "/static/media/harperLogo.7fc3bfd4f7bb95e6b50e.png",
     "static/media/resume.pdf": "/static/media/resume.62f88e2b810b3455a5bd.pdf",
     "static/media/contactMailDark.svg": "/static/media/contactMailDark.1db650d351729a0f17b4e3104e6a7b7a.svg",
@@ -17,7 +19,7 @@
     "index.html": "/index.html",
     "static/media/talksCardBack.svg": "/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
     "main.fb071bd1.css.map": "/static/css/main.fb071bd1.css.map",
-    "main.f25a220e.js.map": "/static/js/main.f25a220e.js.map",
+    "main.50e1fbcb.js.map": "/static/js/main.50e1fbcb.js.map",
     "64.13040c87.chunk.css.map": "/static/css/64.13040c87.chunk.css.map",
     "64.56dc6704.chunk.js.map": "/static/js/64.56dc6704.chunk.js.map",
     "769.7237592a.chunk.css.map": "/static/css/769.7237592a.chunk.css.map",
@@ -25,6 +27,6 @@
   },
   "entrypoints": [
     "static/css/main.fb071bd1.css",
-    "static/js/main.f25a220e.js"
+    "static/js/main.50e1fbcb.js"
   ]
 }
