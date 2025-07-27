@@ -56,7 +56,7 @@ export default function Greeting() {
              <img
   alt="Nour Sarikaya"
   className="greeting-profile-pic"
-  src={require("../../assets/images/nour.png")}
+  src={require("../../assets/images/mypicture.png")}
   style={{ borderRadius: "50%", width: "300px", height: "auto" }}
 />         </div>
         </div>
