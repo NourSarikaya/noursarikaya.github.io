@@ -92,6 +92,7 @@ const workExperiences = {
     {
       role: "Back-End Developer Trainee",
       company: "Revature Pre-Employment Program",
+      companylogo: require("./assets/images/revatureLogo.png"),
       date: "Dec 2024 – Feb 2025",
       desc: "Participated in a full-time backend engineering training program focused on Java, Spring Boot, SQL, and RESTful APIs.",
       descBullets: [
@@ -102,8 +103,6 @@ const workExperiences = {
     }
   ]
 };
-
-
 const openSource = {
   showGithubProfile: "true",
   display: true
