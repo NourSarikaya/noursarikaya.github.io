@@ -79,21 +79,21 @@ const educationInfo = {
 const techStack = {
   viewSkillBars: true,
   experience: [
-    { Stack: "Frontend", progressPercentage: "85%" },
-    { Stack: "Backend", progressPercentage: "70%" },
-    { Stack: "System Design", progressPercentage: "60%" }
+    { Stack: "Backend Development", progressPercentage: "85%" },
+    { Stack: "System Design & Architecture", progressPercentage: "75%" },
+    { Stack: "Database Management", progressPercentage: "80%" }
   ],
   displayCodersrank: false
 };
 
 const workExperiences = {
-  display: false,
+  display: true,
   experience: []
 };
 
 const openSource = {
   showGithubProfile: "true",
-  display: false
+  display: true
 };
 
 const bigProjects = {
