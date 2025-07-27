@@ -111,7 +111,43 @@ const openSource = {
 const bigProjects = {
   title: "Featured Projects",
   subtitle: "A FEW CREATIONS I'M PROUD OF",
-  projects: [],
+  projects: [
+    {
+      image: require("./assets/images/blogApiLogo.png"),
+      projectName: "Spring Social Media Blog API",
+      projectDesc:
+        "Developed a RESTful API for a social media platform using Spring Boot, with features like user authentication and CRUD operations.",
+      footerLink: [
+        {
+          name: "GitHub",
+          url: "https://github.com/NourSarikaya/Spring-Social-Media-Blog-API.git"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/catlaserLogo.png"),
+      projectName: "Interactive Laser Toy",
+      projectDesc:
+        "Designed random path generator and sensor integration for a cat laser toy using Python, LiDAR, and motion sensors.",
+      footerLink: [
+        {
+          name: "GitHub",
+          url: "https://github.com/NourSarikaya/CatLaserTowerProject.git"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/kernelLogo.png"),
+      projectName: "Functional Kernel",
+      projectDesc:
+        "Built a minimal functional kernel using C and x86 Assembly, with IDT, syscalls, terminal driver, and basic scheduling.",
+      footerLink: [
+        {
+          name: "GitHub",
+          url: "https://github.com/NourSarikaya/Functional-Kernel.git"        }
+      ]
+    }
+  ],
   display: true
 };
 
