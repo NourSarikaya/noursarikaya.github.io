@@ -77,13 +77,13 @@ $skillsColor: #2563eb;
 $appLink: #3b82f6;
 
 // social media icons
-$faceBook: #3b5998;
-$linkedin: #0e76a8;
-$github: #171515;
-$gitlab: #fca326;
-$google: #ea4335;
-$twitter: #1da1f2;
-$medium: #000;
-$stackoverflow: #f48024;
-$instagram: #405de6;
-$kaggle: #20beff;
+$faceBook: #3b82f6;       // blue
+$linkedin: #1e40af;       // darker blue
+$github: #1e3a8a;         // deep blue
+$gitlab: #2563eb;         // standard blue
+$google: #3b82f6;         // override red with blue
+$twitter: #1da1f2;        // Twitter default blue
+$medium: #1e40af;         // replace black with dark blue
+$stackoverflow: #60a5fa;  // override orange with light blue
+$instagram: #3b82f6;      // override pink/purple with soft blue
+$kaggle: #2563eb;         // already bluish, keep or darken if needed
