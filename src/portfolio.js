@@ -15,9 +15,9 @@ const illustration = {
 
 const greeting = {
   username: "Nour Sarikaya",
-  title: "Hi there, I'm Nour ✨",
+  title: "Hey! I'm Nour 💗",
   subTitle: emoji(
-    "A creative and passionate developer 🌱 who loves crafting elegant, user-friendly experiences with JavaScript, React, and Python. Currently exploring ways to blend tech with everyday life."
+    "I’m a backend-focused developer who blends logic and creativity 💡. I love Python, system design, and bringing tech ideas to life with purpose and clarity."
   ),
   resumeLink: "./src/containers/greeting/resume.pdf",
   displayGreeting: true
