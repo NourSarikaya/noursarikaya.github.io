@@ -4,7 +4,7 @@ import emoji from "react-easy-emoji";
 import splashAnimation from "./assets/lottie/splashAnimation"; 
 
 const splashScreen = {
-  enabled: false,
+  enabled: true,
   animation: splashAnimation,
   duration: 2000
 };
@@ -103,7 +103,7 @@ const workExperiences = {
 };
 const openSource = {
   showGithubProfile: "true",
-  display: false
+  display: true
 };
 
 const bigProjects = {
