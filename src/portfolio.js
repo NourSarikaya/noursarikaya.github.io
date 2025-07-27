@@ -88,8 +88,21 @@ const techStack = {
 
 const workExperiences = {
   display: true,
-  experience: []
+  experience: [
+    {
+      role: "Back-End Developer Trainee",
+      company: "Revature Pre-Employment Program",
+      date: "Dec 2024 – Feb 2025",
+      desc: "Participated in a full-time backend engineering training program focused on Java, Spring Boot, SQL, and RESTful APIs.",
+      descBullets: [
+        "Built RESTful APIs using Spring Boot with Test Driven Development principles",
+        "Gained practical experience with Java, SQL, and REST API construction",
+        "Practiced object-oriented programming and version control using Git"
+      ]
+    }
+  ]
 };
+
 
 const openSource = {
   showGithubProfile: "true",
