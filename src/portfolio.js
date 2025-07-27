@@ -4,7 +4,7 @@ import emoji from "react-easy-emoji";
 import splashAnimation from "./assets/lottie/splashAnimation"; 
 
 const splashScreen = {
-  enabled: true,
+  enabled: false,
   animation: splashAnimation,
   duration: 2000
 };
@@ -15,8 +15,8 @@ const illustration = {
 
 const greeting = {
   username: "Nour Sarikaya",
-  title: "Hey! I'm Nour 💗",
-  subTitle: emoji(
+  title: "Hey! I'm Nour",
+  subTitle: (
     "I’m a backend-focused developer who blends logic and creativity 💡. I love Python, system design, and bringing tech ideas to life with purpose and clarity."
   ),
   resumeLink: "./src/containers/greeting/resume.pdf",
@@ -26,28 +26,26 @@ const greeting = {
 const socialMediaLinks = {
   github: "https://github.com/noursarikaya",
   linkedin: "https://www.linkedin.com/in/noursarikaya",
-  gmail: "your-email@gmail.com",
+  gmail: "noursarikaya2001@gmail.com",
   display: true
 };
 
 const skillsSection = {
   title: "What I Love to Build",
-  subTitle: "SOFTWARE CREATOR WITH A FLAIR FOR DESIGN AND FUNCTIONALITY",
+  subTitle: "BACKEND ENTHUSIAST WITH A PASSION FOR SYSTEMS AND DATA",
   skills: [
-    emoji("✨ Beautiful and accessible UIs with React and CSS"),
-    emoji("🔍 Exploring clean and efficient backend systems"),
-    emoji("🌟 Building real-world apps with purpose and style")
+    emoji("🛠️ Building scalable and maintainable backend services with Java and Spring Boot"),
+    emoji("🔗 Designing and consuming RESTful APIs"),
+    emoji("🧠 Applying object-oriented design and system design principles"),
+    emoji("📊 Managing and querying relational databases using SQL")
   ],
   softwareSkills: [
-    { skillName: "html-5", fontAwesomeClassname: "fab fa-html5" },
-    { skillName: "css3", fontAwesomeClassname: "fab fa-css3-alt" },
-    { skillName: "sass", fontAwesomeClassname: "fab fa-sass" },
-    { skillName: "JavaScript", fontAwesomeClassname: "fab fa-js" },
-    { skillName: "reactjs", fontAwesomeClassname: "fab fa-react" },
-    { skillName: "nodejs", fontAwesomeClassname: "fab fa-node" },
-    { skillName: "sql-database", fontAwesomeClassname: "fas fa-database" },
-    { skillName: "python", fontAwesomeClassname: "fab fa-python" },
-    { skillName: "docker", fontAwesomeClassname: "fab fa-docker" }
+    { skillName: "Java", fontAwesomeClassname: "fab fa-java" },
+    { skillName: "Spring Boot", fontAwesomeClassname: "fas fa-leaf" },
+    { skillName: "SQL", fontAwesomeClassname: "fas fa-database" },
+    { skillName: "Python", fontAwesomeClassname: "fab fa-python" },
+    { skillName: "Git", fontAwesomeClassname: "fab fa-git-alt" },
+    { skillName: "Docker", fontAwesomeClassname: "fab fa-docker" }
   ],
   display: true
 };
@@ -187,10 +185,10 @@ const resumeSection = {
 };
 
 const contactInfo = {
-  title: emoji("Let's Connect 📢"),
+  title: emoji("Let's Connect"),
   subtitle: "Feel free to reach out for collaboration or just a chat",
-  number: "",
-  email_address: "your-email@gmail.com"
+  number: "773-225-01-72",
+  email_address: "noursarikaya2001@gmail.com"
 };
 
 const twitterDetails = {
