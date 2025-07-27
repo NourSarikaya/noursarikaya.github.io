@@ -16,11 +16,12 @@
 .greeting-profile-pic {
   display: block;
   margin: 20px auto; // centers the image horizontally
-  border: 3px solid #ff69b4; // bright pink border
+  border: 3px solid #1e90ff; // DodgerBlue border
   border-radius: 50%; // makes it circular
   max-width: 280px;
-  box-shadow: 0 8px 20px rgba(255, 105, 180, 0.3); // soft pink shadow
+  box-shadow: 0 8px 20px rgba(30, 144, 255, 0.3); // soft blue shadow
 }
+
 
 .greeting-main {
   display: flex;
