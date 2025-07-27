@@ -14,9 +14,12 @@
 }
 
 .greeting-profile-pic {
-  border: 3px solid #6ecf8b;
-  margin-top: 20px;
-  box-shadow: 0 5px 15px rgba(0, 100, 50, 0.2);
+  display: block;
+  margin: 20px auto; // centers the image horizontally
+  border: 3px solid #ff69b4; // bright pink border
+  border-radius: 50%; // makes it circular
+  max-width: 280px;
+  box-shadow: 0 8px 20px rgba(255, 105, 180, 0.3); // soft pink shadow
 }
 
 .greeting-main {
