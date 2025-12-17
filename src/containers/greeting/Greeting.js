@@ -53,12 +53,13 @@ export default function Greeting() {
             </div>
           </div>
           <div className="greeting-image-div">
-             <img
-  alt="Nour Sarikaya"
-  className="greeting-profile-pic"
-  src={require("../../assets/images/mypicture.png")}
-  style={{ borderRadius: "50%", width: "300px", height: "auto" }}
-/>         </div>
+            <img
+              alt="Nour Sarikaya"
+              className="greeting-profile-pic"
+              src={require("../../assets/images/mypicture.png")}
+              style={{borderRadius: "50%", width: "300px", height: "auto"}}
+            />{" "}
+          </div>
         </div>
       </div>
     </Fade>

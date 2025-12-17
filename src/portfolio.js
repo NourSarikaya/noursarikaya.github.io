@@ -1,7 +1,7 @@
 /* Updated: Personalized and Girly Green Themed Portfolio Config */
 
 import emoji from "react-easy-emoji";
-import splashAnimation from "./assets/lottie/splashAnimation"; 
+import splashAnimation from "./assets/lottie/splashAnimation";
 
 const splashScreen = {
   enabled: true,
@@ -16,9 +16,8 @@ const illustration = {
 const greeting = {
   username: "Nour Sarikaya",
   title: "Hey! I'm Nour",
-  subTitle: (
-    "I’m a backend-focused developer who blends logic and creativity 💡. I love Python, system design, and bringing tech ideas to life with purpose and clarity."
-  ),
+  subTitle:
+    "I’m a backend-focused developer who blends logic and creativity 💡. I love Python, system design, and bringing tech ideas to life with purpose and clarity.",
   resumeLink: "./src/containers/greeting/resume.pdf",
   displayGreeting: true
 };
@@ -34,18 +33,20 @@ const skillsSection = {
   title: "What I Love to Build",
   subTitle: "BACKEND ENTHUSIAST WITH A PASSION FOR SYSTEMS AND DATA",
   skills: [
-    emoji("🛠️ Building scalable and maintainable backend services with Java and Spring Boot"),
+    emoji(
+      "🛠️ Building scalable and maintainable backend services with Java and Spring Boot"
+    ),
     emoji("🔗 Designing and consuming RESTful APIs"),
     emoji("🧠 Applying object-oriented design and system design principles"),
     emoji("📊 Managing and querying relational databases using SQL")
   ],
   softwareSkills: [
-    { skillName: "Java", fontAwesomeClassname: "fab fa-java" },
-    { skillName: "Spring Boot", fontAwesomeClassname: "fas fa-leaf" },
-    { skillName: "SQL", fontAwesomeClassname: "fas fa-database" },
-    { skillName: "Python", fontAwesomeClassname: "fab fa-python" },
-    { skillName: "Git", fontAwesomeClassname: "fab fa-git-alt" },
-    { skillName: "Docker", fontAwesomeClassname: "fab fa-docker" }
+    {skillName: "Java", fontAwesomeClassname: "fab fa-java"},
+    {skillName: "Spring Boot", fontAwesomeClassname: "fas fa-leaf"},
+    {skillName: "SQL", fontAwesomeClassname: "fas fa-database"},
+    {skillName: "Python", fontAwesomeClassname: "fab fa-python"},
+    {skillName: "Git", fontAwesomeClassname: "fab fa-git-alt"},
+    {skillName: "Docker", fontAwesomeClassname: "fab fa-docker"}
   ],
   display: true
 };
@@ -77,9 +78,9 @@ const educationInfo = {
 const techStack = {
   viewSkillBars: true,
   experience: [
-    { Stack: "Backend Development", progressPercentage: "85%" },
-    { Stack: "System Design & Architecture", progressPercentage: "75%" },
-    { Stack: "Database Management", progressPercentage: "80%" }
+    {Stack: "Backend Development", progressPercentage: "85%"},
+    {Stack: "System Design & Architecture", progressPercentage: "75%"},
+    {Stack: "Database Management", progressPercentage: "80%"}
   ],
   displayCodersrank: false
 };
@@ -142,7 +143,8 @@ const bigProjects = {
       footerLink: [
         {
           name: "GitHub",
-          url: "https://github.com/NourSarikaya/Functional-Kernel.git"        }
+          url: "https://github.com/NourSarikaya/Functional-Kernel.git"
+        }
       ]
     }
   ],
@@ -192,7 +194,7 @@ const contactInfo = {
 };
 
 const twitterDetails = {
-  userName: "", 
+  userName: "",
   display: false
 };
 
@@ -218,4 +220,3 @@ export {
   isHireable,
   resumeSection
 };
-
