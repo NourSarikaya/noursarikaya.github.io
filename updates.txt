@@ -1,0 +1,28 @@
+✅ What to do EVERY time you make a change (gh-pages setup)
+1️⃣ Make your changes
+Anything counts:
+Text updates
+New projects
+Styling (CSS)
+React components
+Images
+2️⃣ Save and push your changes to master
+git status
+git add .
+git commit -m "Update portfolio"
+git push
+This step is required.
+The deploy step always uses what’s in master.
+3️⃣ Deploy to GitHub Pages
+npm run deploy
+What this does:
+Runs npm run build
+Publishes the build output to the gh-pages branch
+Automatically pushes to GitHub
+👉 Do NOT run git push after this
+Deploy already pushes for you.
+4️⃣ Wait + hard refresh
+Wait 1–3 minutes
+Hard refresh the site:
+Mac: Cmd + Shift + R
+Windows: Ctrl + Shift + R
