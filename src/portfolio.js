@@ -227,8 +227,7 @@ const resumeSection = {
 
 const contactInfo = {
   title: emoji("Let's Connect"),
-  subtitle:
-    "Open to backend engineering opportunities, collaboration, and meaningful tech conversations.",
+  subtitle: "Open to both data engineering and software engineering positions.",
   number: "",
   email_address: "noursarikaya2001@gmail.com"
 };
