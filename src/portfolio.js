@@ -17,7 +17,7 @@ const greeting = {
   username: "Nour Sarikaya",
   title: "Hey! I'm Nour",
   subTitle:
-    "I’m a backend-focused developer building reliable Java, Spring Boot, SQL, and REST API solutions with a growing focus on enterprise financial services systems.",
+    "I’m a Data Engineer focused on data migration, validation, ETL pipelines, and automation. I work across Ab Initio, AWS S3, Control-M, Python, Shell, SQL, Java, and Spring Boot to build reliable systems for enterprise financial services workflows.",
   resumeLink: "./src/containers/greeting/resume.pdf",
   displayGreeting: true
 };
@@ -30,32 +30,35 @@ const socialMediaLinks = {
 };
 
 const skillsSection = {
-  title: "What I Love to Build",
-  subTitle:
-    "BACKEND DEVELOPER WITH ENTERPRISE AND FINANCIAL SERVICES EXPERIENCE",
+  title: "What I Build",
+  subTitle: "DATA ENGINEER WITH FINANCIAL SERVICES MIGRATION EXPERIENCE",
   skills: [
     emoji(
-      "🛠️ Building maintainable backend services with Java, Spring Boot, and layered architecture"
+      "⚙️ Building and maintaining Ab Initio graphs for account validation and migration workflows"
     ),
-    emoji("🔗 Designing RESTful APIs for real business workflows"),
-    emoji("📊 Modeling, querying, and validating relational data with SQL"),
+    emoji("☁️ Automating reports and file movement across AWS S3 pipelines"),
     emoji(
-      "🧪 Writing cleaner code through testing, debugging, and Git-based collaboration"
+      "📊 Creating DMLs, validating new data feeds, and monitoring pipeline health"
     ),
     emoji(
-      "🏦 Applying onboarding experience from enterprise financial services client work"
+      "🛠️ Using Python, Shell, Control-M, GitHub, and SQL to support bank merger integration work"
+    ),
+    emoji(
+      "🔐 Applying Java Spring Boot experience to secure card management and API projects"
     )
   ],
   softwareSkills: [
     {skillName: "Java", fontAwesomeClassname: "fab fa-java"},
-    {skillName: "Spring Boot", fontAwesomeClassname: "fas fa-leaf"},
-    {skillName: "REST APIs", fontAwesomeClassname: "fas fa-network-wired"},
-    {skillName: "SQL", fontAwesomeClassname: "fas fa-database"},
     {skillName: "Python", fontAwesomeClassname: "fab fa-python"},
-    {skillName: "React", fontAwesomeClassname: "fab fa-react"},
+    {skillName: "SQL", fontAwesomeClassname: "fas fa-database"},
+    {skillName: "Shell Scripting", fontAwesomeClassname: "fas fa-terminal"},
+    {skillName: "AWS S3", fontAwesomeClassname: "fab fa-aws"},
+    {skillName: "Ab Initio", fontAwesomeClassname: "fas fa-project-diagram"},
+    {skillName: "Control-M", fontAwesomeClassname: "fas fa-clock"},
+    {skillName: "Spring Boot", fontAwesomeClassname: "fas fa-leaf"},
+    {skillName: "PostgreSQL", fontAwesomeClassname: "fas fa-database"},
     {skillName: "Git", fontAwesomeClassname: "fab fa-git-alt"},
-    {skillName: "Docker", fontAwesomeClassname: "fab fa-docker"},
-    {skillName: "Agile", fontAwesomeClassname: "fas fa-users"}
+    {skillName: "Docker", fontAwesomeClassname: "fab fa-docker"}
   ],
   display: true
 };
@@ -87,11 +90,11 @@ const educationInfo = {
 const techStack = {
   viewSkillBars: true,
   experience: [
-    {Stack: "Java & Spring Boot", progressPercentage: "88%"},
-    {Stack: "REST API Development", progressPercentage: "86%"},
-    {Stack: "SQL & Data Modeling", progressPercentage: "82%"},
-    {Stack: "Enterprise Onboarding", progressPercentage: "78%"},
-    {Stack: "React & Frontend Integration", progressPercentage: "72%"}
+    {Stack: "Data Migration & Validation", progressPercentage: "88%"},
+    {Stack: "ETL Pipelines & Ab Initio", progressPercentage: "84%"},
+    {Stack: "Python & Shell Automation", progressPercentage: "82%"},
+    {Stack: "AWS S3 & Control-M", progressPercentage: "78%"},
+    {Stack: "Java Spring Boot APIs", progressPercentage: "76%"}
   ],
   displayCodersrank: false
 };
@@ -100,26 +103,17 @@ const workExperiences = {
   display: true,
   experience: [
     {
-      role: "Software Engineer",
-      company: "Capgemini | Major Financial Services Client",
-      date: "2025 – Present",
-      desc: "Supporting enterprise onboarding and delivery work for a major financial services client, with a focus on backend systems, team workflows, and client-aligned engineering practices.",
+      role: "Data Engineer",
+      company: "Capgemini | Client: Major Financial Institution",
+      companylogo: require("./assets/images/capgeminiLogo.svg"),
+      date: "Jan 2026 – Sep 2026",
+      desc: "Supported bank merger integration work across data migration, validation, automation, and pipeline monitoring.",
       descBullets: [
-        "Completed client onboarding activities and ramped into enterprise standards, tools, and delivery expectations",
-        "Collaborated in an Agile environment with attention to documentation, code quality, and secure development practices",
-        "Applied Java, Spring Boot, SQL, Git, and API fundamentals to financial services project work"
-      ]
-    },
-    {
-      role: "Back-End Developer Trainee",
-      company: "Revature Pre-Employment Program",
-      companylogo: require("./assets/images/revatureLogo.png"),
-      date: "Dec 2024 – Feb 2025",
-      desc: "Participated in a full-time backend engineering training program focused on Java, Spring Boot, SQL, and RESTful APIs.",
-      descBullets: [
-        "Built RESTful APIs using Spring Boot with Test Driven Development principles",
-        "Gained practical experience with Java, SQL, and REST API construction",
-        "Practiced object-oriented programming and version control using Git"
+        "Built and maintained Ab Initio graphs for account validation with automated email alerting",
+        "Developed Python and Shell tooling deployed via Control-M to generate migration reports from AWS S3 buckets",
+        "Created Data Movement Layouts (DMLs) for onboarding new data feeds and validated them through account/control checks and Ab Initio parsing",
+        "Developed automated variance-reporting and file-transfer scripts to flag abnormal ingress volume and manage movement between S3 buckets",
+        "Provided overnight coverage and pipeline updates during migration events across Control-M, GitHub, Ab Initio, Python, Shell, and AWS"
       ]
     }
   ]
@@ -137,7 +131,7 @@ const bigProjects = {
       image: require("./assets/images/blogApiLogo.png"),
       projectName: "Card Management System",
       projectDesc:
-        "Built a backend card management application focused on account workflows, data persistence, and service-layer organization.",
+        "Delivered a Java Spring Boot application with secure card data management, customer profiles, identity verification, Basic Auth + JWT authentication, PostgreSQL, and Swagger/OpenAPI documentation.",
       footerLink: [
         {
           name: "GitHub",
