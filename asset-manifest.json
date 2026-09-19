@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.7d27cb1f.css",
-    "main.js": "/static/js/main.3c7e2108.js",
+    "main.css": "/static/css/main.af4864e3.css",
+    "main.js": "/static/js/main.d7bb468d.js",
     "static/css/64.13040c87.chunk.css": "/static/css/64.13040c87.chunk.css",
     "static/js/64.56dc6704.chunk.js": "/static/js/64.56dc6704.chunk.js",
     "static/css/769.7237592a.chunk.css": "/static/css/769.7237592a.chunk.css",
@@ -19,15 +19,15 @@
     "static/media/capgeminiLogo.svg": "/static/media/capgeminiLogo.25e2349733cd6fc84cf432be7102abd8.svg",
     "index.html": "/index.html",
     "static/media/talksCardBack.svg": "/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
-    "main.7d27cb1f.css.map": "/static/css/main.7d27cb1f.css.map",
-    "main.3c7e2108.js.map": "/static/js/main.3c7e2108.js.map",
+    "main.af4864e3.css.map": "/static/css/main.af4864e3.css.map",
+    "main.d7bb468d.js.map": "/static/js/main.d7bb468d.js.map",
     "64.13040c87.chunk.css.map": "/static/css/64.13040c87.chunk.css.map",
     "64.56dc6704.chunk.js.map": "/static/js/64.56dc6704.chunk.js.map",
     "769.7237592a.chunk.css.map": "/static/css/769.7237592a.chunk.css.map",
     "769.bda0d7b7.chunk.js.map": "/static/js/769.bda0d7b7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7d27cb1f.css",
-    "static/js/main.3c7e2108.js"
+    "static/css/main.af4864e3.css",
+    "static/js/main.d7bb468d.js"
   ]
 }
