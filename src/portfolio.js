@@ -17,7 +17,7 @@ const greeting = {
   username: "Nour Sarikaya",
   title: "Hey! I'm Nour",
   subTitle:
-    "I’m a backend-focused developer who blends logic and creativity 💡. I love Python, system design, and bringing tech ideas to life with purpose and clarity.",
+    "I’m a backend-focused developer building reliable Java, Spring Boot, SQL, and REST API solutions with a growing focus on enterprise financial services systems.",
   resumeLink: "./src/containers/greeting/resume.pdf",
   displayGreeting: true
 };
@@ -31,22 +31,31 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I Love to Build",
-  subTitle: "BACKEND ENTHUSIAST WITH A PASSION FOR SYSTEMS AND DATA",
+  subTitle:
+    "BACKEND DEVELOPER WITH ENTERPRISE AND FINANCIAL SERVICES EXPERIENCE",
   skills: [
     emoji(
-      "🛠️ Building scalable and maintainable backend services with Java and Spring Boot"
+      "🛠️ Building maintainable backend services with Java, Spring Boot, and layered architecture"
     ),
-    emoji("🔗 Designing and consuming RESTful APIs"),
-    emoji("🧠 Applying object-oriented design and system design principles"),
-    emoji("📊 Managing and querying relational databases using SQL")
+    emoji("🔗 Designing RESTful APIs for real business workflows"),
+    emoji("📊 Modeling, querying, and validating relational data with SQL"),
+    emoji(
+      "🧪 Writing cleaner code through testing, debugging, and Git-based collaboration"
+    ),
+    emoji(
+      "🏦 Applying onboarding experience from enterprise financial services client work"
+    )
   ],
   softwareSkills: [
     {skillName: "Java", fontAwesomeClassname: "fab fa-java"},
     {skillName: "Spring Boot", fontAwesomeClassname: "fas fa-leaf"},
+    {skillName: "REST APIs", fontAwesomeClassname: "fas fa-network-wired"},
     {skillName: "SQL", fontAwesomeClassname: "fas fa-database"},
     {skillName: "Python", fontAwesomeClassname: "fab fa-python"},
+    {skillName: "React", fontAwesomeClassname: "fab fa-react"},
     {skillName: "Git", fontAwesomeClassname: "fab fa-git-alt"},
-    {skillName: "Docker", fontAwesomeClassname: "fab fa-docker"}
+    {skillName: "Docker", fontAwesomeClassname: "fab fa-docker"},
+    {skillName: "Agile", fontAwesomeClassname: "fas fa-users"}
   ],
   display: true
 };
@@ -78,9 +87,11 @@ const educationInfo = {
 const techStack = {
   viewSkillBars: true,
   experience: [
-    {Stack: "Backend Development", progressPercentage: "85%"},
-    {Stack: "System Design & Architecture", progressPercentage: "75%"},
-    {Stack: "Database Management", progressPercentage: "80%"}
+    {Stack: "Java & Spring Boot", progressPercentage: "88%"},
+    {Stack: "REST API Development", progressPercentage: "86%"},
+    {Stack: "SQL & Data Modeling", progressPercentage: "82%"},
+    {Stack: "Enterprise Onboarding", progressPercentage: "78%"},
+    {Stack: "React & Frontend Integration", progressPercentage: "72%"}
   ],
   displayCodersrank: false
 };
@@ -88,6 +99,17 @@ const techStack = {
 const workExperiences = {
   display: true,
   experience: [
+    {
+      role: "Software Engineer",
+      company: "Capgemini | Major Financial Services Client",
+      date: "2025 – Present",
+      desc: "Supporting enterprise onboarding and delivery work for a major financial services client, with a focus on backend systems, team workflows, and client-aligned engineering practices.",
+      descBullets: [
+        "Completed client onboarding activities and ramped into enterprise standards, tools, and delivery expectations",
+        "Collaborated in an Agile environment with attention to documentation, code quality, and secure development practices",
+        "Applied Java, Spring Boot, SQL, Git, and API fundamentals to financial services project work"
+      ]
+    },
     {
       role: "Back-End Developer Trainee",
       company: "Revature Pre-Employment Program",
@@ -113,6 +135,18 @@ const bigProjects = {
   projects: [
     {
       image: require("./assets/images/blogApiLogo.png"),
+      projectName: "Card Management System",
+      projectDesc:
+        "Built a backend card management application focused on account workflows, data persistence, and service-layer organization.",
+      footerLink: [
+        {
+          name: "GitHub",
+          url: "https://github.com/NourSarikaya/card-management-system.git"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/blogApiLogo.png"),
       projectName: "Spring Social Media Blog API",
       projectDesc:
         "Developed a RESTful API for a social media platform using Spring Boot, with features like user authentication and CRUD operations.",
@@ -124,7 +158,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/catlaserLogo.png"),
+      image: require("./assets/images/catLaserLogo.png"),
       projectName: "Interactive Laser Toy",
       projectDesc:
         "Designed random path generator and sensor integration for a cat laser toy using Python, LiDAR, and motion sensors.",
@@ -188,8 +222,9 @@ const resumeSection = {
 
 const contactInfo = {
   title: emoji("Let's Connect"),
-  subtitle: "Feel free to reach out for collaboration or just a chat",
-  number: "773-225-01-72",
+  subtitle:
+    "Open to backend engineering opportunities, collaboration, and meaningful tech conversations.",
+  number: "",
   email_address: "noursarikaya2001@gmail.com"
 };
 
