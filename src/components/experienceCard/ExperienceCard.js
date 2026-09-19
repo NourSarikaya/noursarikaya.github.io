@@ -5,9 +5,14 @@ import ColorThief from "colorthief";
 export default function ExperienceCard({cardInfo, isDark}) {
   const [colorArrays, setColorArrays] = useState([]);
   const imgRef = createRef();
+  const companyLogo =
+    typeof cardInfo.companylogo === "string"
+      ? cardInfo.companylogo
+      : cardInfo.companylogo?.default || "";
+  const isSvgLogo = companyLogo.endsWith(".svg");
 
   function getColorArrays() {
-    if (!cardInfo.companylogo || cardInfo.companylogo.endsWith(".svg")) {
+    if (!companyLogo || isSvgLogo) {
       return;
     }
     const colorThief = new ColorThief();
@@ -38,7 +43,7 @@ export default function ExperienceCard({cardInfo, isDark}) {
       <div
         style={{background: rgb(colorArrays)}}
         className={
-          cardInfo.companylogo && cardInfo.companylogo.endsWith(".svg")
+          isSvgLogo
             ? "experience-banner experience-banner-logo"
             : "experience-banner"
         }
@@ -48,12 +53,12 @@ export default function ExperienceCard({cardInfo, isDark}) {
           <h5 className="experience-text-company">{cardInfo.company}</h5>
         </div>
 
-        {cardInfo.companylogo && (
+        {companyLogo && (
           <img
             crossOrigin={"anonymous"}
             ref={imgRef}
             className="experience-roundedimg"
-            src={cardInfo.companylogo}
+            src={companyLogo}
             alt={cardInfo.company}
             onLoad={() => getColorArrays()}
           />
