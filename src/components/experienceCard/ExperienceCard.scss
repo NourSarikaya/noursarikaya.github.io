@@ -37,6 +37,10 @@
   justify-content: center;
 }
 
+.experience-banner-logo {
+  background: $experienceCardBannerLG;
+}
+
 .experience-blurred_div {
   position: absolute;
   background: $experienceCardBlurredDivLG;
@@ -92,6 +96,7 @@
   background-color: $lightBackground1;
   box-shadow: 0 0.5rem 1rem $lightBoxShadowDarker;
   border-radius: 50%;
+  z-index: 2;
 }
 
 .experience-text-role {

@@ -73,8 +73,7 @@ const educationInfo = {
       duration: "2022 - 2024",
       desc: "Graduated with hands-on experience in embedded systems, software development, and IoT integration.",
       descBullets: [
-        "Worked on smart hardware projects with real-time data feedback",
-        "Participated in design and innovation competitions"
+        "Worked on smart hardware projects with real-time data feedback"
       ]
     },
     {
@@ -114,6 +113,18 @@ const workExperiences = {
         "Created Data Movement Layouts (DMLs) for onboarding new data feeds and validated them through account/control checks and Ab Initio parsing",
         "Developed automated variance-reporting and file-transfer scripts to flag abnormal ingress volume and manage movement between S3 buckets",
         "Provided overnight coverage and pipeline updates during migration events across Control-M, GitHub, Ab Initio, Python, Shell, and AWS"
+      ]
+    },
+    {
+      role: "Back-End Developer Trainee",
+      company: "Revature Pre-Employment Program",
+      companylogo: require("./assets/images/revatureLogo.png"),
+      date: "Dec 2024 – Feb 2025",
+      desc: "Participated in a full-time backend engineering training program focused on Java, Spring Boot, SQL, and RESTful APIs.",
+      descBullets: [
+        "Built RESTful APIs using Spring Boot with Test Driven Development principles",
+        "Gained practical experience with Java, SQL, and REST API construction",
+        "Practiced object-oriented programming and version control using Git"
       ]
     }
   ]
