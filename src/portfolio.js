@@ -105,7 +105,7 @@ const workExperiences = {
       role: "Data Engineer",
       company: "Capgemini | Client: Major Financial Institution",
       companylogo: require("./assets/images/capgeminiLogo.svg"),
-      date: "Jan 2026 – Sep 2026",
+      date: "Jan 2026 – Present",
       desc: "Supported bank merger integration work across data migration, validation, automation, and pipeline monitoring.",
       descBullets: [
         "Built and maintained Ab Initio graphs for account validation with automated email alerting",
