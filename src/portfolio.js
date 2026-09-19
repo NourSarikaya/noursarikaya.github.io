@@ -24,7 +24,7 @@ const greeting = {
 
 const socialMediaLinks = {
   github: "https://github.com/noursarikaya",
-  linkedin: "https://www.linkedin.com/in/noursarikaya",
+  linkedin: "https://www.linkedin.com/in/eminenurnoursarikaya/",
   gmail: "noursarikaya2001@gmail.com",
   display: true
 };
